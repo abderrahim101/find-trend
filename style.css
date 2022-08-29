@@ -1,0 +1,377 @@
+:root {
+  --pr: #a8ff35;
+  --ho: #8cc83a;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  height: fit-content;
+  box-sizing: border-box;
+}
+a {
+  font-family: "Poppins", sans-serif;
+}
+.hero {
+  background-image: url(/findtrend/assest/decstopBg.jpg);
+  width: 100%;
+  height: 100vh;
+  margin-bottom: 4.5rem;
+}
+
+/* start nav */
+.navbar-toggler i {
+  color: white;
+}
+nav .navbar-brand {
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+}
+nav ul a {
+  font-weight: 500;
+}
+nav a:hover {
+  color: var(--pr) !important;
+}
+.navbar-brand img,
+.lgo img {
+  transition: all 1s ease-in;
+}
+.navbar-brand img:hover,
+.lgo img:hover {
+  transform: rotate(360deg);
+}
+/* end nav */
+/* start landing */
+.text h1 {
+  font-size: 4.5rem;
+}
+.bib {
+  background-color: var(--pr);
+}
+.bib:hover {
+  background-color: var(--ho);
+}
+.ik img {
+  position: relative;
+  padding: 0;
+  width: 320.5px;
+  height: 89.72px;
+  transform: rotate(2deg);
+}
+.a {
+  transform: rotate(3deg);
+}
+.ik .b {
+  transform: rotate(-5deg);
+}
+.ik .c {
+  transform: rotate(4deg);
+}
+.ik .d {
+  transform: rotate(2deg);
+}
+/* and landing */
+
+/* work */
+.section {
+  height: calc(100vh - 4.5rem);
+  background-color: var(--pr);
+}
+.section h2 {
+  color: black !important;
+  font-size: 4.5rem;
+  text-transform: none;
+}
+.tabBox {
+  width: 40%;
+  border-radius: 16px;
+}
+
+/* work */
+/* about */
+
+.about {
+  width: 100%;
+  height: 70vh;
+}
+.about p {
+  text-transform: none;
+  font-weight: bold;
+  color: black;
+  font-size: 47px;
+}
+.about p span {
+  color: #adadad;
+}
+/* about */
+
+/* Pricing */
+.pricing h2,
+.platforms h2,
+.join h2 {
+  text-transform: none;
+  font-size: 3rem;
+  color: black;
+  font-weight: bold;
+}
+.brands .b {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+.brands {
+  display: grid;
+  gap: 30px 30px;
+  grid-template-columns: repeat(4, auto);
+}
+
+/* Pricing */
+
+/* platforms */
+.platforms {
+  background-color: #fafafa;
+  width: 100%;
+  height: fit-content;
+}
+.plfs {
+  display: grid;
+  gap: 30px 30px;
+  grid-template-columns: repeat(8, auto);
+}
+.plf {
+  cursor: pointer;
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 30px 20px;
+}
+#active,
+#act {
+  background-color: var(--pr);
+}
+.tweets {
+  transition: all 1s ease-in;
+}
+.tweets img {
+  width: 40%;
+  border-radius: 16px;
+  margin: 0 auto;
+  transition: 0.3s ease-in-out;
+}
+.tweets img:hover {
+  transform: translateY(-20px);
+  box-shadow: 0px 10px var(--ho);
+}
+.jik {
+  background-color: black;
+  color: white;
+}
+
+.jou {
+  font-size: 2.5rem;
+}
+/* platforms */
+/* sub  */
+.sub {
+  background-color: black;
+  height: 120vh;
+  width: 100%;
+}
+
+.sub h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: none;
+}
+.bi {
+  width: 100px;
+  transition: 0.5s all ease-in-out;
+  background-color: #fafafa;
+}
+#click {
+  background-color: var(--pr);
+}
+#on {
+  transform: translateX(56px);
+  filter: brightness(6) invert(1);
+}
+.tog {
+  cursor: pointer;
+  transition: 0.7s transform ease-in;
+}
+.price h5 {
+  transition: 1s all ease-in;
+}
+.jib {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 32px;
+  height: 100%;
+}
+.jib > div {
+  height: 65%;
+  border-radius: 16px;
+  padding: 32px 44px;
+  background-color: #fafafa;
+}
+.jib hr {
+  width: 100%;
+  height: 3px;
+  opacity: 0.8px;
+}
+.jib h5 {
+  font-size: 3.5rem;
+}
+.jib .gets {
+  height: 274px;
+}
+.pro .gets p {
+  margin: 5px;
+}
+/* sub  */
+/* join */
+.join {
+  height: 50vh;
+  width: 100%;
+  background-color: var(--pr);
+  color: black;
+}
+.nip {
+  opacity: 0.2;
+  font-weight: bolder;
+}
+.join button:hover {
+  /* color: #818181; */
+  color: var(--pr);
+}
+/* join */
+
+footer {
+  height: fit-content;
+  padding: 35px 0;
+  padding-bottom: 20px;
+}
+.lins {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.lins a {
+  transition: all 0.6s;
+  text-decoration: none;
+  color: black;
+}
+
+footer p {
+  font-size: 1rem;
+  color: black;
+  margin: 0;
+  padding-top: 30px;
+}
+footer p a {
+  color: black;
+  font-weight: 600;
+}
+.nho {
+  grid-template-columns: repeat(2, auto);
+  gap: 32px;
+}
+/* medai */
+@media only screen and (max-width: 1000px) {
+  .hero {
+    width: 100%;
+    height: fit-content;
+  }
+  .brands {
+    grid-template-columns: repeat(3, auto);
+  }
+  .jib {
+    grid-template-columns: repeat(1, auto);
+    gap: 12px;
+  }
+  .jib > div {
+    height: fit-content;
+  }
+  .sub {
+    height: fit-content;
+  }
+  .join {
+    height: fit-content;
+  }
+  .nho {
+    grid-template-columns: repeat(1, auto);
+    gap: 32px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .hero {
+    background-image: url(/findtrend/assest/mobileBg.jpg);
+    width: 100%;
+    height: fit-content;
+  }
+  .hero h1 {
+    font-size: 3.5rem;
+  }
+
+  h2 {
+    font-size: 3.5rem;
+  }
+
+  .hgl {
+    flex-direction: column !important;
+  }
+  .kio {
+    transform: rotate(50deg);
+    position: relative;
+    top: 23px;
+  }
+  .nki {
+    transform: rotate(30deg);
+  }
+  .tabBox {
+    width: 90%;
+  }
+  .section {
+    height: fit-content;
+    word-wrap: break-word;
+  }
+  .about p {
+    font-size: 32px;
+  }
+  .pihp p {
+    font-size: 10px;
+  }
+  .brands {
+    grid-template-columns: repeat(2, auto);
+  }
+  .plfs {
+    grid-template-columns: repeat(3, auto);
+  }
+  .tweets img {
+    width: 90%;
+  }
+  .jib {
+    grid-template-columns: repeat(1, auto);
+    gap: 12px;
+  }
+  .jib > div {
+    height: fit-content;
+  }
+  .sub {
+    height: fit-content;
+  }
+  .join {
+    height: fit-content;
+  }
+  .nho {
+    grid-template-columns: repeat(1, auto);
+    gap: 32px;
+  }
+}
+/* medai */
